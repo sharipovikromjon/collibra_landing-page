@@ -1,0 +1,139 @@
+/* gothic-a1-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Gothic A1", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../fonts/gothic-a1-v13-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* amiri-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Amiri", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  src: url("../../fonts/amiri-v27-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+  display: inline-block;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.intro {
+  background-color: #002b40;
+  position: relative;
+}
+.intro__img {
+  position: absolute;
+  top: 15%;
+  right: 0;
+}
+.intro__title-block {
+  padding-top: 200px;
+  padding-left: 140px;
+}
+.intro__title-block--title {
+  margin-bottom: 55px;
+  color: #fff;
+  font-family: "Gothic A1";
+  font-size: 68px;
+  font-weight: 400;
+  line-height: 72.385px;
+  max-width: 600px;
+}
+.intro__title-block--mark {
+  font-size: 69px;
+  color: #72bf00;
+}
+.intro__text {
+  padding-left: 184px;
+  color: #fff;
+  font-family: "Amiri";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: 108px;
+}
+.intro__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 173px;
+     -moz-column-gap: 173px;
+          column-gap: 173px;
+  padding-left: 140px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  background-color: #032736;
+}
+.intro__bottom--text {
+  color: #fff;
+  font-family: "Gothic A1";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 26.4px;
+  margin-top: 7px;
+}
+.intro__bottom--link {
+  color: #fff;
+  font-family: "Gothic A1";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.intro__bottom--link:hover {
+  color: #72bf00;
+  letter-spacing: 0.5px;
+}/*# sourceMappingURL=main.css.map */

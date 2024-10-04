@@ -1,0 +1,64 @@
+.intro {
+  background-color: #002b40;
+  position: relative;
+  &__img {
+    position: absolute;
+    top: 15%;
+    right: 0;
+  }
+  &__title-block {
+    padding-top: 200px;
+    padding-left: 140px;
+    &--title {
+      margin-bottom: 55px;
+      color: #fff;
+      font-family: "Gothic A1";
+      font-size: 68px;
+      font-weight: 400;
+      line-height: 72.385px;
+      max-width: 600px;
+    }
+    &--mark {
+      font-size: 69px;
+      color: #72bf00;
+    }
+  }
+  &__text {
+    padding-left: 184px;
+    color: #fff;
+    font-family: "Amiri";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 108px;
+  }
+  &__bottom {
+    display: flex;
+    align-items: center;
+    column-gap: 173px;
+    padding-left: 140px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-color: #032736;
+    &--text {
+      color: #fff;
+      font-family: "Gothic A1";
+      font-size: 17px;
+      font-weight: 400;
+      line-height: 26.4px;
+      margin-top: 7px;
+    }
+    &--link {
+      color: #fff;
+      font-family: "Gothic A1";
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 24px;
+      transition: all 0.5s ease;
+      &:hover {
+        color: #72bf00;
+        letter-spacing: 0.5px;
+      }
+    }
+  }
+}
